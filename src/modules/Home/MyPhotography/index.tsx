@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import { importAll } from "../../../utils/ImportAllImg";
 import ScrollAnimation from "react-animate-on-scroll";
 import styles from "../../../styles/MyPhotographyWork.module.css";
 
 export const MyPhotography: React.FC<{}> = ({}) => {
-  const images = importAll(
+  const images: string[] = importAll(
     require.context("../../../img/ShowcaseImg", false, /\.(png|jpe?g|svg)$/)
   );
   return (
@@ -37,20 +36,20 @@ export const MyPhotography: React.FC<{}> = ({}) => {
           infiniteLoop
           showArrows={false}
           swipeable={false}
+          emulateTouch={false}
+          preventMovementUntilSwipeScrollTolerance={false}
+          showThumbs={false}
         >
-          {images.map((img: any, idx: React.Key | null | undefined) => (
-            // eslint-disable-next-line react/jsx-key
-            <div>
-              <Image
-                className={styles.item}
-                src={img}
-                width="1600"
-                height="700"
-                alt=""
-                key={idx}
-                priority={true}
-              />
-            </div>
+          {images.map((img: string, idx: React.Key | null | undefined) => (
+            <Image
+              className={styles.item}
+              src={img}
+              width="1600"
+              height="700"
+              alt=""
+              key={idx}
+              priority={true}
+            />
           ))}
         </Carousel>
       </div>

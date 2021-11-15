@@ -1,3 +1,3 @@
-export const importAll = (r: any) => {
-  return r.keys().map(r);
+export const importAll = (r: __WebpackModuleApi.RequireContext): string[] => {
+  return r.keys().map(r).flat() as string[];
 };

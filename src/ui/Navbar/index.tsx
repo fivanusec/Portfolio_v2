@@ -44,10 +44,10 @@ export const Navbar: React.FC<NavbarProps> = () => {
         <button
           className="px-4 uppercase font-semibold"
           onClick={() => {
-            scrollToDiv("myservices");
+            scrollToDiv("mywork");
           }}
         >
-          My services
+          My work
         </button>
         <button
           className="px-4 uppercase font-semibold"

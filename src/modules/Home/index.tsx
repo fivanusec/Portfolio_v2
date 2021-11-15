@@ -2,9 +2,9 @@ import React from "react";
 import { Wave } from "../../ui/Wave";
 import { DefaultLayout } from "../layouts/DefaultLayout";
 import { Aboutme } from "./Aboutme";
+import { DevWork } from "./DevWork";
 import { Introduction } from "./Introduction";
 import { MyPhotography } from "./MyPhotography";
-import { MyServices } from "./MyServices/MyServices";
 
 interface HomeProps {}
 
@@ -14,7 +14,7 @@ export const Home: React.FC<HomeProps> = ({}) => {
       <Introduction />
       <Wave />
       <Aboutme />
-      <MyServices />
+      <DevWork />
       <MyPhotography />
     </DefaultLayout>
   );
