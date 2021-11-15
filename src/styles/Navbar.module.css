@@ -1,0 +1,11 @@
+.variant1 {
+  background-color: white;
+  color: #145494;
+  transition: all 1s ease-in-out;
+}
+
+.variant2 {
+  background-color: #145494;
+  color: white;
+  transition: all 1s ease-in-out;
+}
