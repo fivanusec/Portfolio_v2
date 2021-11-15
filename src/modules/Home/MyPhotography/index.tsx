@@ -27,6 +27,15 @@ export const MyPhotography: React.FC<{}> = ({}) => {
           </h2>
           <hr className="w-1/2 mt-3 border-b-4 border-purple" />
         </ScrollAnimation>
+        <div className="flex flex-col w-1/2 mt-10">
+          <p className="text-xl xs:text-l">
+            I love doing photography and I have been doing photography since I
+            know what camera is. Since I love to explore and especially travel I
+            love to take out my camera and just take pictrues and make them feel
+            like I felt while taking them. Here is mini display of few of my
+            favorite photos of mine.
+          </p>
+        </div>
       </div>
       <div className="flex flex-row">
         <Carousel

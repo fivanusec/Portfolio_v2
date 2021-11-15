@@ -5,6 +5,7 @@ import { Aboutme } from "./Aboutme";
 import { DevWork } from "./DevWork";
 import { Introduction } from "./Introduction";
 import { MyPhotography } from "./MyPhotography";
+import { TimeLine } from "./Timeline";
 
 interface HomeProps {}
 
@@ -14,6 +15,7 @@ export const Home: React.FC<HomeProps> = ({}) => {
       <Introduction />
       <Wave />
       <Aboutme />
+      <TimeLine />
       <DevWork />
       <MyPhotography />
     </DefaultLayout>
