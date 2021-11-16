@@ -12,7 +12,7 @@ export const MyPhotography: React.FC<{}> = ({}) => {
   return (
     <div
       id="myphotographywork"
-      className="flex flex-col justify-items-center items-center justify-center w-full "
+      className="flex flex-col justify-items-center items-center justify-center w-full font-sans"
     >
       <div className="flex flex-col justify-center items-center justify-items-center p-10">
         <ScrollAnimation

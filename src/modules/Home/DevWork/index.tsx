@@ -13,7 +13,7 @@ export const DevWork: React.FC<{}> = ({}) => {
   const showCase = extractRepos(repos);
   return (
     <div
-      className="flex flex-col w-full justify-center items-center"
+      className="flex flex-col w-full justify-center items-center font-sans"
       id="mywork"
     >
       <ScrollAnimation

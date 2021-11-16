@@ -10,7 +10,7 @@ export const Introduction: React.FC<{}> = ({}) => {
   return (
     <div
       id="introduction"
-      className="flex p-20 xs:p-0 xs:flex-col lg:flex-row sm:flex-col md:flex-col justify-center w-full bg-primary"
+      className="flex p-20 xs:p-0 xs:flex-col lg:flex-row sm:flex-col md:flex-col justify-center w-full bg-primary font-sans"
     >
       <div className="flex p-10 xs:p-5 flex-col w-1/2 md:w-full sm:w-full xs:w-full xs:mt-20">
         <div className="flex flex-col p-10 inset-y-0 left-0">

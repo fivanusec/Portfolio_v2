@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export const TimeLine: React.FC<{}> = ({}) => {
   return (
-    <div className="container mx-auto w-full h-full">
+    <div className="container mx-auto w-full h-full font-sans">
       <div className="relative wrap overflow-hidden p-10 h-full">
         <div
           className="border-2-2 absolute border-opacity-20 border-secondary h-full border"

@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export const Aboutme: React.FC<{}> = ({}) => {
   return (
-    <div className="flex flex-col justify-items-center items-center justify-center w-full">
+    <div className="flex flex-col justify-items-center items-center justify-center w-full font-sans">
       <div className="flex flex-col justify-center items-center justify-items-center p-10">
         <ScrollAnimation
           className="flex flex-col justify-center items-center justify-items-center"

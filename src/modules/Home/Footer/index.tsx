@@ -5,7 +5,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export const Footer: React.FC<{}> = ({}) => {
   return (
-    <div className="flex flex-col justify-items-center items-center justify-center w-full bg-gray-400 p-20 mt-10">
+    <div className="flex flex-col justify-items-center items-center justify-center w-full bg-gray-400 p-20 mt-10 font-sans">
       <div className="flex flex-col">
         <ScrollAnimation
           animateIn="animate__flipInX"

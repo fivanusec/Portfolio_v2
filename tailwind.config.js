@@ -21,9 +21,9 @@ module.exports = {
         purple: "#b3b4d5",
         rose: "#baafce",
       },
-      fontFamily: {
-        sans: ["Roboto\\ Slab", "Nunito"],
-      },
+    },
+    fontFamily: {
+      sans: ["Open\\ Sans"],
     },
   },
   variants: {
