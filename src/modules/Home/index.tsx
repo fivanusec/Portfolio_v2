@@ -15,7 +15,6 @@ export const Home: React.FC<HomeProps> = ({}) => {
       <Introduction />
       <Wave />
       <Aboutme />
-      <TimeLine />
       <DevWork />
       <MyPhotography />
     </DefaultLayout>

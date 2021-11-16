@@ -5,52 +5,48 @@ import { Github } from "../../../ui/Icons/Github";
 import { Instagram } from "../../../ui/Icons/Instagram";
 import { Twitter } from "../../../ui/Icons/Twitter";
 import { SlideIn } from "../Slide/SlideIn";
+import Link from "next/link";
 
 export const FooterSocial: React.FC<{}> = ({}) => {
   return (
     <div className="flex flex-row p-10 xs:p-5 xs:w-1/2 xs:h-1/2 xs:transform xs:scale-75">
       <SlideIn delay={0.9}>
-        <Button
-          variant="rose"
-          style={{
-            marginRight: "15px",
-          }}
-        >
-          <a href="https://github.com/fivanusec">
+        <a href="https://github.com/fivanusec">
+          <Button
+            variant="purple"
+            style={{
+              marginRight: "15px",
+            }}
+          >
             <Github />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </SlideIn>
       <SlideIn delay={0.5}>
-        <Button
-          style={{
-            marginRight: "15px",
-          }}
-          variant="rose"
-        >
-          <a href="https://twitter.com/fivanusec">
+        <a href="https://twitter.com/fivanusec">
+          <Button
+            style={{
+              marginRight: "15px",
+            }}
+            variant="purple"
+          >
             <Twitter />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </SlideIn>
       <SlideIn delay={0.3}>
-        <Button
-          variant="rose"
-          style={{
-            marginRight: "15px",
-          }}
-        >
-          <a href="https://www.instagram.com/ivanusecfilip/">
+        <a href="https://www.instagram.com/ivanusecfilip/">
+          <Button variant="purple">
             <Instagram />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </SlideIn>
       <SlideIn>
-        <Button variant="rose">
-          <a href="mailto:fivanusec@gmail.com">
+        <a href="mailto:fivanusec@gmail.com">
+          <Button variant="rose">
             <Email />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </SlideIn>
     </div>
   );
