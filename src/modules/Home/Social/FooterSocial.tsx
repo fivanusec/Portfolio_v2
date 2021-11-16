@@ -36,14 +36,19 @@ export const FooterSocial: React.FC<{}> = ({}) => {
       </SlideIn>
       <SlideIn delay={0.3}>
         <a href="https://www.instagram.com/ivanusecfilip/">
-          <Button variant="purple">
+          <Button
+            style={{
+              marginRight: "15px",
+            }}
+            variant="purple"
+          >
             <Instagram />
           </Button>
         </a>
       </SlideIn>
       <SlideIn>
         <a href="mailto:fivanusec@gmail.com">
-          <Button variant="rose">
+          <Button variant="purple">
             <Email />
           </Button>
         </a>

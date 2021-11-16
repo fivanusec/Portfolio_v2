@@ -1,3 +1,4 @@
+import moment from "moment";
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -17,7 +18,8 @@ export const TimeLine: React.FC<{}> = ({}) => {
             </div>
             <div className="order-1 bg-primary rounded-full shadow-xl w-5/12 p-10">
               <h3 className="mb-3 font-bold text-white text-xl">
-                Working as help in apartment complex
+                01/07/2017 - 15/08/2017 <br /> Working as help in apartment
+                complex
               </h3>
               <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
                 I worrked as sesonal worker at apartment complex as part of
@@ -35,7 +37,7 @@ export const TimeLine: React.FC<{}> = ({}) => {
             </div>
             <div className="order-1 bg-rose rounded-full shadow-xl w-5/12 p-10">
               <h3 className="mb-3 font-bold text-white text-xl">
-                Student dormitory Trsat
+                21/06/2021 - 13/09/2021 <br /> Student dormitory Trsat
               </h3>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                 I started working at student Centre Rijeka as worker on
@@ -54,7 +56,8 @@ export const TimeLine: React.FC<{}> = ({}) => {
             </div>
             <div className="order-1 bg-primary rounded-full shadow-xl w-5/12 p-10">
               <h3 className="mb-3 font-bold text-white text-xl">
-                Working as receptionsit at Student dormitory Trsat
+                13/09/2021 - 01/11/2021 <br /> Working as receptionsit at
+                Student dormitory Trsat
               </h3>
               <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
                 When summer maitenance finished I got work as student
@@ -72,11 +75,11 @@ export const TimeLine: React.FC<{}> = ({}) => {
             </div>
             <div className="order-1 bg-rose rounded-full shadow-xl w-5/12 p-10">
               <h3 className="mb-3 font-bold text-white text-xl">
-                Working as part of maitenance crew at Student dormitory Trsat
+                16/11/2021 - still <br /> Working as software developer
               </h3>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                I got resigned from receptionist job to as it fits better my
-                description and background.
+                I got offerd software developer job as part of my education and
+                training as software developer.
               </p>
             </div>
           </div>
