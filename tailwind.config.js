@@ -1,9 +1,15 @@
+/* eslint-disable global-require */
 module.exports = {
-  purge: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-  ],
-  darkMode: false, // or 'media' or 'class'
+  purge: {
+    content: [
+      "./src/pages/**/*.tsx",
+      "./src/modules/**/*.tsx",
+      "./src/ui/**/*.tsx",
+      "./src/styles/*.{module.css, css}",
+      "./content/**/*.mdx",
+    ],
+  },
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     screens: {
       xs: { max: "640px" },
