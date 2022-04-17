@@ -1,37 +1,11 @@
 import { CustomValueType, motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { useOnScreen } from "../../../hooks/useOnScreen";
 
 interface LazyShowProps {
   x: string | number | CustomValueType | undefined;
   opacity?: number;
   className?: string | undefined;
-}
-
-function useOnScreen(ref: React.RefObject<HTMLDivElement>, rootMargin = "0px") {
-  // State and setter for storing whether element is visible
-  const [isIntersecting, setIntersecting] = useState(false);
-
-  useEffect(() => {
-    let currentRef: Element | null = null;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // Update our state when observer callback fires
-        setIntersecting(entry.isIntersecting);
-      },
-      {
-        rootMargin,
-      }
-    );
-    if (ref.current) {
-      currentRef = ref.current;
-      observer.observe(currentRef);
-    }
-    return () => {
-      observer.unobserve(currentRef as Element);
-    };
-  }, [ref, rootMargin]); // Empty array ensures that effect is only run on mount and unmount
-
-  return isIntersecting;
 }
 
 const LazyShow: React.FC<LazyShowProps> = ({

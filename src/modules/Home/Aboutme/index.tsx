@@ -3,8 +3,10 @@ import Image from "next/image";
 import Masnoca from "../../../img/ShowcaseImg/Masnoca.jpg";
 import styles from "../../../styles/Aboutme.module.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useTranslation } from "react-i18next";
 
-export const Aboutme: React.FC<{}> = ({}) => {
+export const Aboutme: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col justify-items-center items-center justify-center w-full font-sans">
       <div className="flex flex-col justify-center items-center justify-items-center p-10">
@@ -16,7 +18,7 @@ export const Aboutme: React.FC<{}> = ({}) => {
             id="aboutme"
             className="text-primary text-4xl uppercase font-bold"
           >
-            About me
+            {t("about-me.header")}
           </h2>
           <hr className="w-1/2 mt-3 border-b-4 border-purple" />
         </ScrollAnimation>
@@ -26,17 +28,7 @@ export const Aboutme: React.FC<{}> = ({}) => {
           animateIn="animate__slideInLeft"
           className="flex justify-center items-center"
         >
-          <p className="text-xl xs:text-l">
-            My name is Filip and I am a Croatian based student, musician,
-            photographer and software developer. I started my journey at the age
-            of 18 when I first learned programming working on Arduino and
-            Arduino-based systems. Why Arduino? I went to engineering school and
-            studied electrical engineering. After I finished In high school, I
-            started college for electrical engineering and along the way, I
-            found that I was more into software than into electrical engineering
-            so I decided to switch college to telematics which I found to be
-            more fun and challenging than electrical engineering.
-          </p>
+          <p className="text-xl xs:text-l">{t("about-me.text")}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="animate__slideInRight"

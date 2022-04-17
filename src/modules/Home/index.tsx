@@ -4,12 +4,9 @@ import { DefaultLayout } from "../layouts/DefaultLayout";
 import { Aboutme } from "./Aboutme";
 import { DevWork } from "./DevWork";
 import { Introduction } from "./Introduction";
-import { MyPhotography } from "./MyPhotography";
 import { TimeLine } from "./Timeline";
 
-interface HomeProps {}
-
-export const Home: React.FC<HomeProps> = ({}) => {
+export const Home: React.FC = () => {
   return (
     <DefaultLayout>
       <Introduction />
@@ -17,7 +14,6 @@ export const Home: React.FC<HomeProps> = ({}) => {
       <Aboutme />
       <TimeLine />
       <DevWork />
-      <MyPhotography />
     </DefaultLayout>
   );
 };

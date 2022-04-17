@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "introduction": "uvod",
+    "about-me": "o meni",
+    "my-work": "moj rad"
+  },
+  "welcome-screen": {
+    "header": "dobrodosli!",
+    "i-am": "ja sam",
+    "typed": "glazbenik.",
+    "text": "Ja sam student developer koji trenutno živi i obitava u Rijeci, s vise od 4 godine iskustva"
+  },
+  "about-me": {
+    "header": "o meni",
+    "text": "Moje ime je Filip i ja sam student, glazbenik i software developer iz Hrvatske. Svoj put započeo sam s 18 godina kada sam krenuo raditi na Arduino sustavu. Zašto Arduino? Završio sam srednju školu za elektrotehničara. Kada sam završio srednju školu nastavio sam obrazovanje za elektrotehničara te sam putem shvatio da me elektrotehnika vise ne interesira. Tako sam odlučio preci na Telematiku za koju smatram da je zabavnija i zanimljivija od elektrotehnike."
+  },
+  "timeline": {
+    "1": {
+      "date": "01/07/2017 - 15/08/2017",
+      "title": "Rad kako ispomoc u apartmanskom kompleksu",
+      "text": "Radio sam kao sezonac u apartmanskom kompleksu kao dio sobara."
+    },
+    "2": {
+      "date": "21/06/2021 - 13/09/2021",
+      "title": "Studentski dom Trsat",
+      "text": "Rad na infrastrukturi studentskog doma, bio sam dio tima koji je odradivao redovno odrzavanje kompletnog studentskog doma"
+    },
+    "3": {
+      "date": "13/09/2021 - 01/11/2021",
+      "title": "Rad na recepciji studentskog doma",
+      "text": "Nakon izvrsetka redovnog odrzavanja studentskog doma dobio sam posao kao recepcionar istog doma."
+    },
+    "4": {
+      "date": "16/11/2021 - 10/01/2021",
+      "title": "Software developer",
+      "text": "Softwareski posao u kojem sam bio zaduzen za development aplikacija za koristeneje unutar interne infrastrukture."
+    },
+    "5": {
+      "date": "06/02/2021 - *",
+      "title": "Rad kao serviser, data recovery specialist i software developer @ BigBox",
+      "text": "Hardware-ski i software-ski posao kako bi naucio dublje low-level programiranje i low-level operacije"
+    }
+  },
+  "my-work": {
+    "title": "Moj rad",
+    "text": "Moje primarno polje zanimanja je web development, ali postavljem interese u razna polja. Zasto? Iskreno, volim istrazivati i testirati svoje mogucnosti u svakom trenutku. Iako obozavam raditi sa Typescriptom/Javascriptom, isto tako vrlo rado biram Python, C/C++ i sl. Jos uvijek radim aktivno sa C/C++ - om jer su dio nostalgije koju imam prema srednjoskolskim danima.",
+    "text-2": "Moji najdrazi projekti su: GUMBO - Editor i OpenCVPuT(jer mi je to zavrsni rad)"
+  },
+  "contact-me": "Kontaktirajte me"
+}

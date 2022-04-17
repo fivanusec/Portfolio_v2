@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "introduction": "introduction",
+    "about-me": "about me",
+    "my-work": "my work"
+  },
+  "welcome-screen": {
+    "header": "welcome!",
+    "i-am": " i am",
+    "typed": "musician.",
+    "text": "I am developer based in Rijeka, Croatia with over 4 years of experience in field"
+  },
+  "about-me": {
+    "header": "about me",
+    "text": "My name is Filip and I am a Croatian based student, musician and software developer. I started my journey at the age of 18 when I first learned programming working on Arduino and Arduino-based systems. Why Arduino? I went to engineering school and studied electrical engineering. After I finished In high school, I started college for electrical engineering and along the way, I found that I was more into software than into electrical engineering so I decided to switch college to telematics which I found to be more fun and challenging than electrical engineering."
+  },
+  "timeline": {
+    "1": {
+      "date": "01/07/2017 - 15/08/2017",
+      "title": "Working as help in apartment complex",
+      "text": "I worked as sesonal worker at apartment complex as part of housekeeping"
+    },
+    "2": {
+      "date": "21/06/2021 - 13/09/2021",
+      "title": "21/06/2021 - 13/09/2021 Student dormitory Trsat",
+      "text": "I started working at student Centre Rijeka as worker on infrastructure. I was part of maitenance crew that did regular summer maitenance of the full complex"
+    },
+    "3": {
+      "date": "13/09/2021 - 01/11/2021",
+      "title": "Working as receptionsit at Student dormitory Trsat",
+      "text": "When summer maitenance finished I got work as student receptionist at dorimtory Kampus Trsat."
+    },
+    "4": {
+      "date": "16/11/2021 - 10/01/2021",
+      "title": "Working as software developer",
+      "text": "I got offerd software developer job as part of my education and training as software developer."
+    },
+    "5": {
+      "date": "06/02/2021 - *",
+      "title": "Working as technicain, data recovery specialist and general service technician @ BigBox",
+      "text": "Got back to one of my passions: electronics, so I accepted postion @ BigBox as repair technican to reflect on my skills and to figure out what I want to do with my coding knowledge."
+    }
+  },
+  "my-work": {
+    "title": "My work",
+    "text": "I mostly do web development, but you can catch me doing a little bit of everything. Why? Well I like to read, explore and see what capabilities I have. I love to work in Typescript/Javascript for web development as they are super easy to work with but sometimes I will lean on python if I see I can do something better with it. You never know. I still do a lot of C/C++ as I started with C in high school and nostaliga hits sometimes bad.",
+    "text-2": "My favorite projects are: GUMBO - Editor i OpenCVPuT(as this is my bacc. thesis)"
+  },
+  "contact-me": "Contact me"
+}

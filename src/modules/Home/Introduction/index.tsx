@@ -5,8 +5,15 @@ import Image from "next/image";
 import ProgrammingSvg from "../../../img/undraw_programming_-2-svr.svg";
 import LazyShow from "../LazyShow";
 import { Social } from "../Social/Social";
+import { useTranslation } from "react-i18next";
 
-export const Introduction: React.FC<{}> = ({}) => {
+export const Introduction: React.FC = () => {
+  const { t } = useTranslation();
+  const typeText: string[] = [
+    "Student.",
+    "Developer.",
+    t("welcome-screen.typed"),
+  ];
   return (
     <div
       id="introduction"
@@ -15,10 +22,10 @@ export const Introduction: React.FC<{}> = ({}) => {
       <div className="flex p-10 xs:p-5 flex-col w-1/2 md:w-full sm:w-full xs:w-full xs:mt-20">
         <div className="flex flex-col p-10 inset-y-0 left-0">
           <h1 className="uppercase text-white font-bold text-left font-serif text-5xl xs:text-3xl  break-all xs:break-normal">
-            Welcome!
+            {t("welcome-screen.header")}
           </h1>
           <h2 className="uppercase font-serif font-bold text-white text-3xl xs:text-xl mt-10 break-all xs:break-normal">
-            I am{" "}
+            {t("welcome-screen.i-am")}{" "}
             <Typed
               strings={typeText}
               typeSpeed={80}
@@ -30,8 +37,7 @@ export const Introduction: React.FC<{}> = ({}) => {
         </div>
         <div className="flex px-10">
           <h3 className="font-serif font-bold text-white text-3xl xs:text-xl break-all xs:break-normal">
-            I am developer based in Rijeka, Croatia with over 4 <br /> years of
-            experience in field.
+            {t("welcome-screen.text")}
           </h3>
         </div>
         <Social />
@@ -50,5 +56,3 @@ export const Introduction: React.FC<{}> = ({}) => {
     </div>
   );
 };
-
-const typeText: string[] = ["Student.", "Developer.", "Photographer."];

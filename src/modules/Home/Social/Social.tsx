@@ -4,11 +4,8 @@ import { Github } from "../../../ui/Icons/Github";
 import { Instagram } from "../../../ui/Icons/Instagram";
 import { Twitter } from "../../../ui/Icons/Twitter";
 import { SlideIn } from "../Slide/SlideIn";
-import Link from "next/link";
 
-interface SocialProps {}
-
-export const Social: React.FC<SocialProps> = ({}) => {
+export const Social: React.FC = () => {
   return (
     <div className="flex flex-row p-10 xs:p-5 xs:w-1/2 xs:h-1/2 xs:transform xs:scale-75">
       <SlideIn delay={0.7}>
