@@ -36,7 +36,7 @@ export const Introduction: React.FC = () => {
           </h2>
         </div>
         <div className="flex px-10">
-          <h3 className="font-serif font-bold text-white text-3xl xs:text-xl break-all xs:break-normal">
+          <h3 className="font-serif font-bold text-white text-3xl xs:text-xl break-normal xs:break-normal">
             {t("welcome-screen.text")}
           </h3>
         </div>

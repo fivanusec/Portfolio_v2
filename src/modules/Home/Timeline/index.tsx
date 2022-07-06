@@ -12,11 +12,10 @@ export const TimeLine: React.FC = () => {
           className="border-2-2 absolute border-opacity-20 border-secondary h-full border"
           style={{ left: "50%" }}
         ></div>
-        {[...new Array(4)].map((_: any, idx: number) => (
+        {[...new Array(5)].map((_: any, idx: number) => (
           <TimelineCard
             date={t(`timeline.${idx + 1}.date`)}
             key={idx}
-            num={idx + 1}
             position={(idx + 1) % 2 == 0 ? "left" : "right"}
             header={t(`timeline.${idx + 1}.title`)}
             description={t(`timeline.${idx + 1}.text`)}

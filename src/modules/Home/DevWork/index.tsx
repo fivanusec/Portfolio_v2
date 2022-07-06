@@ -14,13 +14,14 @@ export const DevWork: React.FC = () => {
     const fetchRepos = async () => {
       return await fetchApi().then((r: GithubRepo[]) => {
         setRepos(r);
-        setShowCase(extractRepos(repos) as GithubRepo[]);
+        setShowCase(extractRepos(repos).sort());
       });
     };
     fetchRepos();
   }, [repos]);
 
   const { t } = useTranslation();
+
   return (
     <div
       className="flex flex-col w-full justify-center items-center font-sans"
@@ -74,4 +75,4 @@ const extractRepos = (repos: Array<GithubRepo> | undefined) =>
       let rand = Math.floor(Math.random() * repos!.length);
       return repos!.at(rand);
     })
-    .flat();
+    .flat() as GithubRepo[];
